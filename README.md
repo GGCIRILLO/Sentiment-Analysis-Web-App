@@ -2,7 +2,7 @@
 
 This Flask web application allows users to express their mood with text and emojis, providing sentiment analysis results along with a suggested quote.
 
-<img src="./images/home.png" alt="Home View" width="700"/> <img src="./images/result.png" alt="Result View" width="700"/>
+<img src="./images/home.png" alt="Home View" width="900"/> <img src="./images/result.png" alt="Result View" width="900"/>
 
 ## Technologies Used
 
