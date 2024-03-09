@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "undefined/subscriptions/32c10f97-5b33-40a9-b8de-a2a445888b5a/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/sentiment-analysis-bot-gg",
-    "appService.deploySubpath": "."
-}

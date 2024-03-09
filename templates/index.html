@@ -5,16 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #fff; /* White background */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+        }
+
+        h1 {
+            color: #333; /* Dark gray text color */
+            text-align: center;
+            padding: 5 rem;
+        }
+
+        label, textarea, input, button {
+            margin-bottom: 10px;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        textarea, input {
+            padding: 10px;
+            border: 1px solid #ccc; /* Light gray border */
+            border-radius: 5px; /* Rounded corners for input fields */
+        }
+
+        button {
+            background-color: #4caf50; /* Green button color */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
 </head>
 <body>
     <h1>Sentiment Analysis</h1>
     <form action="/analyze_sentiment" method="post">
         <label for="text">Text:</label>
         <textarea id="text" name="text" required></textarea>
-        <br>
         <label for="emojis">Emojis (comma-separated):</label>
         <input type="text" id="emojis" name="emojis" required>
-        <br>
         <button type="submit">Analyze Sentiment</button>
     </form>
 </body>
