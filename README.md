@@ -1,13 +1,14 @@
 # Sentiment Analysis Web Application
 
 This Flask web application allows users to express their mood with text and emojis, providing sentiment analysis results along with a suggested quote.
+<img src="./images/home.png" alt="Home View" width="400"/> <img src="./images/result.png" alt="Result View" width="400"/>
 
 ## Technologies Used
 
 - **Flask**: Web framework for building the application.
 - **FastAPI**: Used for handling HTTP exceptions.
 - **Transformers Library**: Utilized to work with the sentiment analysis model.
-- **HTML/CSS/JavaScript**: Front-end technologies for designing and styling.
+- **HTML/CSS**: Front-end technologies for designing and styling.
 - **Quote Library**: A custom library for generating quotes.
 - **numpy**: Used for numerical operations in Python.
 
